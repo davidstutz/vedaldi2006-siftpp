@@ -42,12 +42,13 @@
 
 // #define USE_LAPACK
 
-#include<sift.hpp>
-#include<sift-conv.tpp>
+#include "sift.hpp"
+#include "sift-conv.tpp"
 
 #include<algorithm>
 #include<iostream>
 #include<sstream>
+#include<string.h>
 
 #if defined( USE_LAPACK )
 #include<Accelerate/Accelerate.h>

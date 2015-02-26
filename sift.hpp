@@ -46,6 +46,7 @@
 #include<valarray>
 #include<vector>
 #include<ostream>
+#include<assert.h>
 
 namespace VL {
 
@@ -180,7 +181,6 @@ private:
 
 }
 
-#include<sift.ipp>
+#include "sift.ipp"
 
-
-#endif VL_SIFT_HPP
+#endif

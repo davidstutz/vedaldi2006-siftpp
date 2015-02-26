@@ -4,13 +4,14 @@
 
 // AUTORIGTHS
 
-#include<sift.hpp>
+#include "sift.hpp"
 
 #include<string>
 #include<iostream>
 #include<fstream>
 #include<sstream>
 #include<algorithm>
+#include<limits>
 
 extern "C" {
 #include<getopt.h>
